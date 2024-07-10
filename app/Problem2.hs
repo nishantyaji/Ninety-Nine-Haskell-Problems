@@ -11,4 +11,7 @@ myButLast a = myLast (init a)
 
 -- Usage
 -- myButLast [1,2,3,4]
--- myButLast ['a', 'b', 'c', 'd']
+-- myButLast ['a', 'b', 'c', 'd']\
+
+-- Please refer this link for solutions from other folks:
+-- https://github.com/search?q=myButLast++language%3AHaskell&type=code&l=Haskell
