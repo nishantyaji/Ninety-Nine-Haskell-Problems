@@ -1,6 +1,7 @@
 -- Problem 7
 -- (**) Flatten a nested list structure.
 
+-- create a data structure (?), which can be a list or an element)
 data NestedList a = Elem a | List [NestedList a]
 
 flatten :: NestedList a -> [a]
@@ -15,4 +16,4 @@ flatten (List xs) = concatMap flatten xs
 
 -- copied from https://www.reddit.com/r/haskellquestions/comments/3han54/how_do_you_flatten_a_nested_list_of_arbitrary/
 
--- usage latten (List [Elem 1, List [Elem 2, List [Elem 3, Elem 4], Elem 5]])
+-- usage flatten (List [Elem 1, List [Elem 2, List [Elem 3, Elem 4], Elem 5]])
