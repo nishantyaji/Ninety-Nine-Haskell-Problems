@@ -15,3 +15,6 @@ map(x:) combinations (k-1) xs adds the 1st element i.e. x to all the combination
 combination k xs: takes care of all combinations of size k but without the element x in it
 
 -}
+
+-- combinations 3 "abcdef"
+-- ["abc","abd","abe","abf","acd","ace","acf","ade","adf","aef","bcd","bce","bcf","bde","bdf","bef","cde","cdf","cef","def"]
